@@ -1,0 +1,10 @@
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore documentation
+README.md
+
+# Ignore git-related files
+.git
+.gitignore
