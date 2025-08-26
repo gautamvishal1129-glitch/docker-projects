@@ -3,50 +3,56 @@
 This project is a static website deployed using Docker and Nginx.
 
 ## 🚀 Features
+
 - Static website with HTML, CSS, and JS
 - Dockerized using Nginx
 - Portable and lightweight
 
 ## 🛠️ Technologies Used
+
 - HTML, CSS, JavaScript
 - Docker
 - Nginx
 
 ## 📂 Project Structure
+
 .
-├── images/             # Screenshots for README
-│   ├── browser.png
-│   ├── docker.png
-│   └── terminal.png
-├── public/             # Website source files
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── Dockerfile          # Docker configuration
-├── .dockerignore       # Files ignored by Docker
-└── README.md           # Project documentation
+├── screenshots/ # Screenshots for README
+│ ├── browser.png
+│ ├── docker.png
+│ └── terminal.png
+├── public/ # Website source files
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+├── Dockerfile # Docker configuration
+├── .dockerignore # Files ignored by Docker
+└── README.md # Project documentation
 
 ## 🖥️ Screenshots
 
 ### Browser View
-![Browser](images/browser.png)
+
+![Browser](screenshots/browser.png)
 
 ### Docker Desktop
-![Docker](images/docker.png)
+
+![Docker](screenshots/docker.png)
 
 ### Terminal / Command Prompt
-![Terminal](images/terminal.png)
 
+![Terminal](screenshots/terminal.png)
 
 ## 🏗️ How to Build and Run
 
 # Clone the full monorepo
+
 ```bash
 
 git clone https://github.com/gautamvishal1129-glitch/docker-projects.git
 
 # Move into the specific project folder
-cd docker-projects/docker-project-01
+cd docker-projects/Dockerized Static Website
 
 # build
 docker build -t my-static-website:01 .
@@ -61,3 +67,4 @@ Open your browser and go to http://localhost:8080
 # stop the container
 docker ps        # Find the container ID
 docker stop <container_id>
+```
