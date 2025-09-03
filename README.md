@@ -10,4 +10,6 @@ This repository contains multiple Docker-based projects, organized as a monorepo
 
 3. [Todo Docker Compose](./Todo-Docker-Compose) - A **Fullstack Todo application** (React + Node.js + MongoDB) orchestrated with **Docker Compose**.
 
-4. More projects coming soon...
+4. [WordPress Docker](./Wordpress-docker) - A **WordPress + MySQL** setup with **Docker Compose**, featuring persistent storage, environment variables, and healthchecks.
+
+5. More projects coming soon...
