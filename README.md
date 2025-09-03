@@ -8,4 +8,6 @@ This repository contains multiple Docker-based projects, organized as a monorepo
 
 2. [Flask Docker App](./Flask%20Docker%20App) - A simple **Flask application** containerized with **Docker**.
 
-3. More projects coming soon...
+3. [Todo Docker Compose](./Todo-Docker-Compose) - A **Fullstack Todo application** (React + Node.js + MongoDB) orchestrated with **Docker Compose**.
+
+4. More projects coming soon...
