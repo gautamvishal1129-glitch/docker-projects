@@ -1,0 +1,6 @@
+# Ignore env file with secrets
+.env
+
+# Ignore volumes (local only)
+wp_data/
+db_data/
