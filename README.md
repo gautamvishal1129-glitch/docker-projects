@@ -12,6 +12,6 @@ This repository contains multiple Docker-based projects, organized as a monorepo
 
 4. [WordPress Docker](./Wordpress-docker) - A **WordPress + MySQL** setup with **Docker Compose**, featuring persistent storage, environment variables, and healthchecks.
 
-5. [Django Docker](./Django-Docker) - A **Django + PostgreSQL** setup with **Docker Compose**, featuring persistent storage, migrations, and an admin dashboard.
+5. [Django Docker](./Django%20Docker) - A **Django + PostgreSQL** setup with **Docker Compose**, featuring persistent storage, migrations, and an admin dashboard.
 
 6. More projects coming soon...
