@@ -14,6 +14,6 @@ This repository contains multiple Docker-based projects, organized as a monorepo
 
 5. [Django Docker](./Django%20Docker) - A **Django + PostgreSQL** setup with **Docker Compose**, featuring persistent storage, migrations, and an admin dashboard.
 
-6. [React + Nginx Multi-Stage Build](./React-Docker) - A **React frontend app** built with **Node.js** and served using **Nginx**, optimized with a **multi-stage Docker build** for smaller image size.
+6. [React + Nginx Multi-Stage Build](./react-docker) - A **React frontend app** built with **Node.js** and served using **Nginx**, optimized with a **multi-stage Docker build** for smaller image size.
 
 7. More projects coming soon...
