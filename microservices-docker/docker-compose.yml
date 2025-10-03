@@ -1,0 +1,48 @@
+version: "3.8"
+
+networks:
+  microservices-net:
+
+services:
+  user-service:
+    build: ./user-service
+    ports:
+      - "${USER_SERVICE_PORT}:4000"
+    environment:
+      - MONGO_URI=${MONGO_URI}
+      - REDIS_URL=${REDIS_URL}
+    depends_on:
+      - mongo
+      - redis
+    networks:
+      - microservices-net
+
+  product-service:
+    build: ./product-service
+    ports:
+      - "${PRODUCT_SERVICE_PORT}:5000"
+    environment:
+      - MONGO_URI=${MONGO_URI}
+    depends_on:
+      - mongo
+    networks:
+      - microservices-net  
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - microservices-net 
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - microservices-net
+
+volumes:
+  mongo_data:
