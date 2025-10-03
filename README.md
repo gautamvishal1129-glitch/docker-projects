@@ -16,4 +16,6 @@ This repository contains multiple Docker-based projects, organized as a monorepo
 
 6. [React + Nginx Multi-Stage Build](./react-docker) - A **React frontend app** built with **Node.js** and served using **Nginx**, optimized with a **multi-stage Docker build** for smaller image size.
 
-7. More projects coming soon...
+7. [Microservices Docker](./microservices-docker) - A **Microservices-based application** using **Node.js, MongoDB, Redis**, and **Docker Compose**, featuring separate **User Service** and **Product Service** with environment variable support.
+
+8. More projects coming soon...
